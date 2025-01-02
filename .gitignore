@@ -1,0 +1,25 @@
+# Byte-compiled Python files
+__pycache__/            # Folder where Python stores compiled files
+*.pyc                   # Compiled Python files
+*.pyo                   # Compiled optimized Python files
+
+# Virtual environment
+venv/                   # Folder for your Python virtual environment
+
+# Logs and debugging
+*.log                   # Log files
+*.out                   # Output files
+
+# Environment variables
+.env                    # File where sensitive environment variables (like API keys) are stored
+
+# IDE and editor settings
+.vscode/                # VS Code settings
+.idea/                  # PyCharm settings
+
+# OS-specific files
+.DS_Store               # macOS system file
+Thumbs.db               # Windows system file
+
+# Dependency management
+*.lock                  # Package lock files (e.g., Pipfile.lock)
